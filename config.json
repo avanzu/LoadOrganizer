@@ -1,0 +1,52 @@
+{
+    "scripts": {
+        "js/common.js": {
+            "provides": ["underscore","backbone"],
+            "requires": ["jquery"],
+            "position": "body"
+        },
+
+        "js/compound.js" : {
+            "provides" : ["somefeature", "jquery-ui", "underscore", "backbone"],
+            "requires" : ["jquery", "bootstrap"]
+        },
+        "js/jquery.js": {
+            "provides": ["jquery"],
+            "requires": [],
+            "position": "body"
+        },
+        "js/underscore.js": {
+            "provides": ["underscore"],
+            "requires": [],
+            "position": "body"
+        },
+        "js/backbone.js": {
+            "provides": ["backbone"],
+            "requires": ["jquery","underscore"],
+            "position": "body"
+        },
+        "js/jquery-ui.js": {
+            "provides": ["jquery-ui"],
+            "requires": ["jquery"],
+            "position": "body"
+        },
+        "js/bootstrap-ui.js": {
+            "provides": ["jquery-ui","bootstrap"],
+            "requires": ["jquery", "underscore"],
+            "position": "body"
+        },
+        "js/bootstrap.js": {
+            "provides": ["bootstrap"],
+            "requires": ["jquery","jquery-ui"],
+            "position": "body"
+        },
+        "js/datatables.js": {
+            "provides": ["datatables"],
+            "requires": ["jquery"]
+        },
+        "js/fancytree.js": {
+            "provides": ["fancytree"],
+            "requires": ["jquery"]
+        }
+    }
+}
